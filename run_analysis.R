@@ -17,8 +17,9 @@ yData <- rbind(yTest, yTrain)
 subjectData <- rbind(subjectTest, subjectTrain)
 rm(list=c('xTest', 'yTest', 'subjectTest', 'xTrain', 'yTrain', 'subjectTrain'))
 
-# Rename y data column name
+# Rename column names
 colnames(yData) <- c('Activity')
+colnames(subjectData) <- c('Subject')
 
 # Add labels for y data
 library(dplyr)
@@ -67,7 +68,7 @@ xData <- xData[, c(1,2,3,4,5,6,
 rm(list=c('xJoinedData', 'featureNames'))
 
 # Merge Y data and Subject tables with X data
-combinedData <- cbind(yData, xData)
+combinedData <- cbind(yData, subjectData, xData)
 
 # Export summary dataset as txt file
 write.table(combinedData, 'tidyData.txt', append = FALSE, sep = " ", dec = ".",
