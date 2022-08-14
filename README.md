@@ -6,4 +6,4 @@
 2. Observe the created files/folders:
    - `humanActivityRecognition.zip`, containing the compressed data
    - `UCI HAR Dataset`, containing the uncompressed data
-   - `x_summary.txt`, containing the mean and standard deviation of each feature across the test and training sets
+   - `tidyData.txt`, containing a subset of the main data set (mean and standard deviation values), as well as the activity, activity label and subject
