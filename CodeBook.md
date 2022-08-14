@@ -4,7 +4,7 @@
 
 The original dataset used is the [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-This repository creates a combined version of that with the x and y data, and subject number, all in the same table.
+This repository contains an R script that creates a combined version of that with the x and y data, and subject number, all in the same table.
 
 ## Transformations
 
