@@ -1,5 +1,7 @@
 # Getting and Cleaning Data
 
+View the CodeBook.md for information behind this assignment.
+
 ## Using this script
 
 1. Run the `run_analysis.R` script using R or R studio.
